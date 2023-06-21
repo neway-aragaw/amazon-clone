@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    color: rgb(236, 239, 241);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* Footer */
+.footer {
+    background-color: rgb(35, 47, 62);
+    color:rgb(252, 251, 251);
+    font-size: 0.9rem;
+    /* max-width: 1481px; */
+    margin: 0 auto;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 10px;
+    padding-inline-start: 0px;
+}
+
+.footer ul a {
+    color: #f5f5f7;
+}
+
+.my-apple-wrapper {
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+
+.copyright {
+    margin-top: 15px;
+}
+
+.footer-country {
+    margin-top: 8px;
+}
+
+.flag-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.footer-country-name {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-links-terms ul {
+    display: flex;
+ 
+}
+
+.footer-links-terms ul li {
+    padding: 0 10px;
+    border-right: 1px solid #d2d2d7;
+}
+
+.footer-links-terms ul li a {
+    padding: 0 10px;
+}
+
+.footer-links-terms ul li:first-child {
+    padding-left: 0;
+    margin-left: -10px;
+}
+
+.footer-links-terms ul li:last-child {
+    border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin: 6px 0px 6px;
+text-decoration:
+        none solid rgb(255, 255, 255);
+     background-color: rgba(0, 0, 0, 0);
+}
+
+.footer ul li {
+    padding: 4px 0;
+}
+
+.upper-text-container {
+    border-bottom: 1px solid #d2d2d7;
+    padding: 17px 30px 10px;
+    margin-bottom: 20px;
+}
+
+.upper-text-container a {
+    color: #515154;
+}
+
+.footer h2 a {
+    text-decoration: none;
+    color: #f8f8fb;
+}
+
+.footer h2 a:hover {
+    color: #000;
+}
+/* Footer */
+@media (max-width: 768px) {
+    .footer-links-wrapper ul {
+        display: none;
+    }
+
+    .footer-links-wrapper h3.expanded:after {
+        font-family: "FontAwesome";
+        content: "\f068";
+        padding-left: 10px;
+        position: absolute;
+        right: 25px;
+        ;
+    }
+
+    .footer-links-wrapper h3 {
+        padding: 10px 0;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .footer-links-wrapper h3:after {
+        font-family: "FontAwesome";
+        content: "\f067";
+        padding-left: 10px;
+        position: absolute;
+        right: 25px;
+    }
+}

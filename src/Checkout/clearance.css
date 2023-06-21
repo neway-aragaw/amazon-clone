@@ -1,0 +1,13 @@
+.animated-element {
+    animation: color-change 2s linear;
+}
+
+@keyframes color-change {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: blue;
+    }
+}

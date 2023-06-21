@@ -1,6 +1,10 @@
 .App {
   text-align: center;
+  background-color: rgb(230, 227, 227);
 }
+/* a:hover{
+  border: 1px  solid white;
+} */
 
 .App-logo {
   height: 40vmin;
